@@ -5,11 +5,9 @@
 Built for the **Hacktoberfest Open-Source AI Challenge, Week 4: Ghost in the Machine** (Día de Muertos).
 
 - Post on DEV: [[TODO: add link once published]]
-- Demo video: [[TODO: add link]]
+- Demo video: [VIDEO](https://youtu.be/DrP-kSJcx5c)
 
-![Ofrenda local screenshot](docs/screenshot.png)
-
-[[TODO: add a screenshot at docs/screenshot.png, or remove this image]]
+![Ofrenda local screenshot](docs/ofrenda.svg)
 
 ---
 
