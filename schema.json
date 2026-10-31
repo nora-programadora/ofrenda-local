@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "remembrance": {
+      "type": "string",
+      "description": "Recuerdo breve (80 a 130 palabras) en primera persona de quien escribe, dirigido a la persona recordada."
+    },
+    "calaverita": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 4,
+      "maxItems": 8,
+      "description": "Versos de una calaverita literaria, un verso por elemento."
+    },
+    "cartelito": {
+      "type": "string",
+      "maxLength": 80,
+      "description": "Frase corta para un papel picado o una tarjeta de la ofrenda."
+    },
+    "personalItems": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "properties": {
+          "item": { "type": "string" },
+          "why": { "type": "string" }
+        },
+        "required": ["item", "why"],
+        "additionalProperties": false
+      },
+      "description": "Elementos personales para la ofrenda, tomados solo de los datos proporcionados."
+    },
+    "photoDescription": {
+      "type": "string",
+      "description": "Lo que se ve en la foto, sin identificar a nadie. Cadena vacía si no hay foto."
+    }
+  },
+  "required": ["remembrance", "calaverita", "cartelito", "personalItems", "photoDescription"],
+  "additionalProperties": false
+}
