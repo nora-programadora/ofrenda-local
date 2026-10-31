@@ -4,7 +4,7 @@
 
 Built for the **Hacktoberfest Open-Source AI Challenge, Week 4: Ghost in the Machine** (Día de Muertos).
 
-- Post on DEV: [[TODO: add link once published]]
+- Post on DEV: [POST](https://dev.to/noraprogramadora/ofrenda-local-a-dia-de-muertos-remembrance-writer-that-runs-offline-with-gemma-3-3d07)
 - Demo video: [VIDEO](https://youtu.be/DrP-kSJcx5c)
 
 ![Ofrenda local screenshot](docs/ofrenda.svg)
